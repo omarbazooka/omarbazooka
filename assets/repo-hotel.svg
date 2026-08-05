@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="t d">
+  <title id="t">Hotel cancellation ML repository card</title>
+  <desc id="d">Local premium card for Omar Ahmed's hotel cancellation machine learning project.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111F"/><stop offset="1" stop-color="#0E1A25"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#60A5FA"/></linearGradient></defs>
+  <rect x="1" y="1" width="558" height="188" rx="18" fill="url(#bg)" stroke="#244155" stroke-width="2"/>
+  <rect x="22" y="22" width="48" height="48" rx="12" fill="#0E2234" stroke="#22D3EE" stroke-opacity=".55"/>
+  <path d="M31 59V49M40 59V39M49 59V45M58 59V31" stroke="#67E8F9" stroke-width="4" stroke-linecap="round"/>
+  <text x="86" y="41" fill="#67E8F9" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.4">SUPPORTING // ML ENGINEERING</text>
+  <text x="86" y="65" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="800">Hotel Cancellation Intelligence</text>
+  <text x="22" y="100" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="13">Leakage-aware tabular ML · feature selection · XGBoost / LightGBM comparison</text>
+  <g font-family="Inter,Segoe UI,Arial" font-size="11" font-weight="700">
+    <rect x="22" y="124" width="92" height="27" rx="13.5" fill="#0C2531"/><text x="68" y="142" text-anchor="middle" fill="#67E8F9">90.31% Acc.</text>
+    <rect x="122" y="124" width="107" height="27" rx="13.5" fill="#151B2C"/><text x="175.5" y="142" text-anchor="middle" fill="#93C5FD">95.93% ROC-AUC</text>
+    <rect x="237" y="124" width="83" height="27" rx="13.5" fill="#0C2531"/><text x="278.5" y="142" text-anchor="middle" fill="#67E8F9">XGBoost</text>
+    <rect x="328" y="124" width="84" height="27" rx="13.5" fill="#151B2C"/><text x="370" y="142" text-anchor="middle" fill="#93C5FD">LightGBM</text>
+  </g>
+  <rect x="22" y="170" width="516" height="2" rx="1" fill="url(#g)" opacity=".75"/>
+</svg>
