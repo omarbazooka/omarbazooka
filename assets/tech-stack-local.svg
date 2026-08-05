@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">AI and ML technology stack</title>
+  <desc id="d">Animated local technology tiles emphasizing machine learning, deep learning, backend and engineering tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".55" stop-color="#071426"/>
+      <stop offset="1" stop-color="#120A26"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#bg)" stroke="#1E293B" stroke-width="2"/>
+  <text x="40" y="38" fill="#67E8F9" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700">AI / ML Technology Matrix</text>
+  <text x="1160" y="38" text-anchor="end" fill="#64748B" font-family="Consolas,monospace" font-size="10" letter-spacing="1.1">LOCAL ASSET • NO FRAGILE ICON API</text>
+  <rect x="40" y="50" width="1120" height="2" rx="1" fill="url(#accent)" opacity=".6"/>
+
+  <g font-family="Inter,Segoe UI,Arial" text-anchor="middle">
+    <g transform="translate(40 74)">
+      <animateTransform attributeName="transform" type="translate" values="40 74;40 69;40 74" dur="3.1s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#0A1726" stroke="#3776AB"/>
+      <circle cx="62.5" cy="24" r="15" fill="#3776AB" filter="url(#glow)"/><text x="62.5" y="29" fill="#FFD43B" font-size="13" font-weight="800">Py</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">Python</text>
+    </g>
+    <g transform="translate(180 74)">
+      <animateTransform attributeName="transform" type="translate" values="180 74;180 70;180 74" dur="3.5s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#101826" stroke="#F7931E"/>
+      <circle cx="62.5" cy="24" r="15" fill="#F7931E"/><text x="62.5" y="29" fill="#0B111B" font-size="11" font-weight="800">SK</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">Scikit-learn</text>
+    </g>
+    <g transform="translate(320 74)">
+      <animateTransform attributeName="transform" type="translate" values="320 74;320 68;320 74" dur="3.8s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#16151F" stroke="#EE4C2C"/>
+      <circle cx="62.5" cy="24" r="15" fill="#EE4C2C"/><text x="62.5" y="29" fill="#FFF" font-size="11" font-weight="800">PT</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">PyTorch</text>
+    </g>
+    <g transform="translate(460 74)">
+      <animateTransform attributeName="transform" type="translate" values="460 74;460 70;460 74" dur="3.3s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#171711" stroke="#FF6F00"/>
+      <circle cx="62.5" cy="24" r="15" fill="#FF6F00"/><text x="62.5" y="29" fill="#FFF" font-size="11" font-weight="800">TF</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">TensorFlow</text>
+    </g>
+    <g transform="translate(600 74)">
+      <animateTransform attributeName="transform" type="translate" values="600 74;600 68;600 74" dur="4s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#071D1B" stroke="#009688"/>
+      <circle cx="62.5" cy="24" r="15" fill="#009688"/><text x="62.5" y="29" fill="#FFF" font-size="11" font-weight="800">FA</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">FastAPI</text>
+    </g>
+    <g transform="translate(740 74)">
+      <animateTransform attributeName="transform" type="translate" values="740 74;740 70;740 74" dur="3.6s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#0A1522" stroke="#336791"/>
+      <circle cx="62.5" cy="24" r="15" fill="#336791"/><text x="62.5" y="29" fill="#FFF" font-size="10" font-weight="800">PG</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">PostgreSQL</text>
+    </g>
+    <g transform="translate(880 74)">
+      <animateTransform attributeName="transform" type="translate" values="880 74;880 69;880 74" dur="3.9s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#071A16" stroke="#3ECF8E"/>
+      <circle cx="62.5" cy="24" r="15" fill="#3ECF8E"/><text x="62.5" y="29" fill="#052E25" font-size="11" font-weight="800">SB</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">Supabase</text>
+    </g>
+    <g transform="translate(1020 74)">
+      <animateTransform attributeName="transform" type="translate" values="1020 74;1020 68;1020 74" dur="3.4s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#071624" stroke="#2496ED"/>
+      <circle cx="62.5" cy="24" r="15" fill="#2496ED"/><text x="62.5" y="29" fill="#FFF" font-size="11" font-weight="800">DK</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">Docker</text>
+    </g>
+
+    <g transform="translate(40 180)">
+      <animateTransform attributeName="transform" type="translate" values="40 180;40 175;40 180" dur="3.7s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#15110F" stroke="#F05032"/>
+      <circle cx="62.5" cy="24" r="15" fill="#F05032"/><text x="62.5" y="29" fill="#FFF" font-size="11" font-weight="800">Git</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">Git</text>
+    </g>
+    <g transform="translate(180 180)">
+      <animateTransform attributeName="transform" type="translate" values="180 180;180 176;180 180" dur="3.2s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#11131A" stroke="#94A3B8"/>
+      <circle cx="62.5" cy="24" r="15" fill="#E2E8F0"/><text x="62.5" y="29" fill="#111827" font-size="10" font-weight="800">GH</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">GitHub</text>
+    </g>
+    <g transform="translate(320 180)">
+      <animateTransform attributeName="transform" type="translate" values="320 180;320 174;320 180" dur="3.9s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#071A21" stroke="#61DAFB"/>
+      <circle cx="62.5" cy="24" r="15" fill="#61DAFB"/><text x="62.5" y="29" fill="#0B111B" font-size="11" font-weight="800">R</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">React</text>
+    </g>
+    <g transform="translate(460 180)">
+      <animateTransform attributeName="transform" type="translate" values="460 180;460 176;460 180" dur="3.4s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#071628" stroke="#3178C6"/>
+      <circle cx="62.5" cy="24" r="15" fill="#3178C6"/><text x="62.5" y="29" fill="#FFF" font-size="10" font-weight="800">TS</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">TypeScript</text>
+    </g>
+    <g transform="translate(600 180)">
+      <animateTransform attributeName="transform" type="translate" values="600 180;600 175;600 180" dur="4.1s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#0A1730" stroke="#00599C"/>
+      <circle cx="62.5" cy="24" r="15" fill="#00599C"/><text x="62.5" y="29" fill="#FFF" font-size="10" font-weight="800">C++</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">C++</text>
+    </g>
+    <g transform="translate(740 180)">
+      <animateTransform attributeName="transform" type="translate" values="740 180;740 174;740 180" dur="3.6s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#171311" stroke="#FFB000"/>
+      <circle cx="62.5" cy="24" r="15" fill="#FFB000"/><text x="62.5" y="29" fill="#111827" font-size="10" font-weight="800">XGB</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">XGBoost</text>
+    </g>
+    <g transform="translate(880 180)">
+      <animateTransform attributeName="transform" type="translate" values="880 180;880 176;880 180" dur="3.8s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#0B1713" stroke="#5AB55E"/>
+      <circle cx="62.5" cy="24" r="15" fill="#5AB55E"/><text x="62.5" y="29" fill="#FFF" font-size="10" font-weight="800">LGB</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">LightGBM</text>
+    </g>
+    <g transform="translate(1020 180)">
+      <animateTransform attributeName="transform" type="translate" values="1020 180;1020 175;1020 180" dur="3.3s" repeatCount="indefinite"/>
+      <rect width="125" height="76" rx="16" fill="#171227" stroke="#A78BFA"/>
+      <circle cx="62.5" cy="24" r="15" fill="#A78BFA"/><text x="62.5" y="29" fill="#180F2E" font-size="10" font-weight="800">LC</text>
+      <text x="62.5" y="58" fill="#E2E8F0" font-size="12" font-weight="700">LangChain</text>
+    </g>
+  </g>
+</svg>
