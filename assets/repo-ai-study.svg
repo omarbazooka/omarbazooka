@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="t d">
+  <title id="t">Agentic RAG EDU repository card</title>
+  <desc id="d">Local premium card for Omar Ahmed's AI Study Mega project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111F"/><stop offset="1" stop-color="#11132A"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="558" height="188" rx="18" fill="url(#bg)" stroke="#244155" stroke-width="2"/>
+  <rect x="22" y="22" width="48" height="48" rx="12" fill="#0E2234" stroke="#22D3EE" stroke-opacity=".55"/>
+  <circle cx="46" cy="46" r="8" fill="#22D3EE" filter="url(#glow)"/><circle cx="34" cy="37" r="3" fill="#A78BFA"/><circle cx="58" cy="35" r="3" fill="#60A5FA"/><circle cx="59" cy="57" r="3" fill="#A78BFA"/>
+  <path d="M34 37L46 46L58 35M46 46L59 57" fill="none" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="86" y="41" fill="#67E8F9" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.4">FLAGSHIP // AGENTIC RAG</text>
+  <text x="86" y="65" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="800">AI Study Mega</text>
+  <text x="22" y="100" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="13">Hybrid DAG orchestration · grounded tutoring · quizzes · memory · guardrails</text>
+  <g font-family="Inter,Segoe UI,Arial" font-size="11" font-weight="700">
+    <rect x="22" y="124" width="72" height="27" rx="13.5" fill="#0C2531"/><text x="58" y="142" text-anchor="middle" fill="#67E8F9">FastAPI</text>
+    <rect x="102" y="124" width="79" height="27" rx="13.5" fill="#17152E"/><text x="141.5" y="142" text-anchor="middle" fill="#C4B5FD">LangChain</text>
+    <rect x="189" y="124" width="80" height="27" rx="13.5" fill="#0C2531"/><text x="229" y="142" text-anchor="middle" fill="#67E8F9">Supabase</text>
+    <rect x="277" y="124" width="99" height="27" rx="13.5" fill="#17152E"/><text x="326.5" y="142" text-anchor="middle" fill="#C4B5FD">Hybrid Search</text>
+    <rect x="384" y="124" width="86" height="27" rx="13.5" fill="#0C2531"/><text x="427" y="142" text-anchor="middle" fill="#67E8F9">Re-ranking</text>
+  </g>
+  <rect x="22" y="170" width="516" height="2" rx="1" fill="url(#g)" opacity=".75"/>
+</svg>
