@@ -11,9 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/omarbazooka">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2500&pause=700&color=67E8F9&center=true&vCenter=true&repeat=true&width=920&height=48&lines=AI+Engineer+%7C+Machine+Learning+%7C+Deep+Learning;RAG+%7C+Agentic+AI+%7C+LLM+Systems;Building+intelligent+systems+from+data+%E2%86%92+model+%E2%86%92+API+%E2%86%92+product" alt="Typing introduction" />
-  </a>
+  <img src="./assets/typing-local.svg" width="86%" alt="AI and ML focus animation" />
 </p>
 
 ---
@@ -136,18 +134,7 @@ principle: "Build systems, not isolated notebooks."
 <p align="center"><sub>A focused toolkit for model development, intelligent backends and product integration</sub></p>
 
 <p align="center">
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" width="62" alt="Python" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="62" alt="REST API" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="62" alt="Docker" />
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" width="62" alt="GitHub" />
-  <img src="https://techstack-generator.vercel.app/react-icon.svg" width="62" alt="React" />
-  <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="62" alt="TypeScript" />
-  <img src="https://techstack-generator.vercel.app/js-icon.svg" width="62" alt="JavaScript" />
-  <img src="https://techstack-generator.vercel.app/java-icon.svg" width="62" alt="Java" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,fastapi,postgres,supabase,docker,git,github,react,ts,cpp&theme=dark&perline=12" alt="Core technology icons" />
+  <img src="./assets/tech-stack-local.svg" width="100%" alt="Local animated AI and ML technology stack" />
 </p>
 
 <table>
@@ -276,5 +263,5 @@ I'm also deepening the **MLOps / DevOps** side of AI engineering: reproducibilit
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,45:0E7490,75:4338CA,100:7C3AED" width="100%" alt="Footer wave" />
+  <img src="./assets/footer-wave.svg" width="100%" alt="AI themed footer wave" />
 </p>
