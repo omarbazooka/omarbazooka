@@ -135,15 +135,15 @@ mindset: "Build systems, not isolated notebooks."
 </tr>
 </table>
 
-### Visual repository cards
+### Visual repository cards — local & reliable
 
 <p align="center">
-  <a href="https://github.com/omarbazooka/AI-Study-Mega"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=omarbazooka&repo=AI-Study-Mega&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9" alt="AI Study Mega repository card" /></a>
-  <a href="https://github.com/omarbazooka/heart-disease-prediction"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=omarbazooka&repo=heart-disease-prediction&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9" alt="Heart disease prediction repository card" /></a>
+  <a href="https://github.com/omarbazooka/AI-Study-Mega"><img width="48%" src="./assets/repo-ai-study.svg" alt="AI Study Mega repository card" /></a>
+  <a href="https://github.com/omarbazooka/heart-disease-prediction"><img width="48%" src="./assets/repo-nabdak.svg" alt="Nabdak repository card" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/omarbazooka/Final-Hotel-Reservation-Project"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=omarbazooka&repo=Final-Hotel-Reservation-Project&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9" alt="Hotel reservation repository card" /></a>
-  <a href="https://github.com/omarbazooka/Image-Caption-Generator-with-Arabic-Translation-"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=omarbazooka&repo=Image-Caption-Generator-with-Arabic-Translation-&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9" alt="Image caption repository card" /></a>
+  <a href="https://github.com/omarbazooka/Final-Hotel-Reservation-Project"><img width="48%" src="./assets/repo-hotel.svg" alt="Hotel cancellation ML repository card" /></a>
+  <a href="https://github.com/omarbazooka/Image-Caption-Generator-with-Arabic-Translation-"><img width="48%" src="./assets/repo-caption.svg" alt="Image caption Arabic translation repository card" /></a>
 </p>
 
 ---
@@ -151,30 +151,26 @@ mindset: "Build systems, not isolated notebooks."
 ## `05 // GITHUB.TELEMETRY`
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=omarbazooka&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&ring_color=22D3EE" alt="Omar's GitHub stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=omarbazooka&hide_border=true&background=0D1117&ring=22D3EE&fire=A78BFA&currStreakLabel=67E8F9&currStreakNum=F8FAFC&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B" alt="Omar's GitHub streak" />
+  <img src="./assets/github-telemetry.svg" width="100%" alt="Omar Ahmed GitHub telemetry snapshot" />
 </p>
 
 <p align="center">
-  <img width="43%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarbazooka&layout=donut&langs_count=8&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9" alt="Most used languages" />
-  <img width="55%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omarbazooka&theme=github_dark" alt="GitHub profile summary" />
+  <img width="70%" src="https://streak-stats.demolab.com?user=omarbazooka&hide_border=true&background=0D1117&ring=22D3EE&fire=A78BFA&currStreakLabel=67E8F9&currStreakNum=F8FAFC&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B" alt="Omar's live GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omarbazooka&custom_title=Omar%20Ahmed%20%2F%2F%20Contribution%20Activity&bg_color=0D1117&color=67E8F9&line=A78BFA&point=22D3EE&area=true&area_color=312E81&hide_border=true" width="100%" alt="GitHub activity graph" />
-</p>
-
-> **Note:** GitHub language cards measure repository code composition; they are not a ranking of engineering proficiency.
+<blockquote>
+The custom telemetry card is stored inside this repository, so the profile does not disappear when a public stats service hits an API limit. The streak card is kept as the only live third-party GitHub metric because it is currently rendering correctly.
+</blockquote>
 
 ---
 
 ## `06 // CONTRIBUTION.SNAKE`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/omarbazooka/omarbazooka/output/github-snake-dark.svg" width="100%" alt="Animated contribution snake" />
+  <img src="./assets/github-snake-dark.svg" width="100%" alt="Animated contribution snake" />
 </p>
 
-<sub>The snake is generated automatically by the workflow in this repository. It can take one successful workflow run before the graphic appears.</sub>
+<sub>A reliable local placeholder is shown until the first successful <b>Generate contribution snake</b> workflow run. After that, the workflow overwrites this same file with the live contribution snake and refreshes it daily.</sub>
 
 ---
 
