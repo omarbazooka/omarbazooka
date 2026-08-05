@@ -1,96 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Omar Ahmed — AI Engineer</title>
-  <desc id="desc">Animated dark AI engineering banner with neural nodes, gradients and production system labels.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Omar Ahmed — AI & Machine Learning Engineer</title>
+  <desc id="desc">Animated premium banner emphasizing AI engineering, machine learning, deep learning and production systems.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.5" stop-color="#071426"/>
-      <stop offset="1" stop-color="#160A2E"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22D3EE"/>
-      <stop offset="0.5" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <radialGradient id="glowC" cx="0.15" cy="0.2" r="0.7">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowV" cx="0.84" cy="0.68" r="0.7">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".24"/>
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#7DD3FC" stroke-opacity=".055" stroke-width="1"/>
-    </pattern>
-    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="clip"><rect width="1200" height="430" rx="28"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020617"/><stop offset=".52" stop-color="#071426"/><stop offset="1" stop-color="#160A2E"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <radialGradient id="glowC" cx=".14" cy=".2" r=".7"><stop offset="0" stop-color="#22D3EE" stop-opacity=".23"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowV" cx=".84" cy=".7" r=".7"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".25"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#7DD3FC" stroke-opacity=".05"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="1200" height="440" rx="28"/></clipPath>
   </defs>
 
   <g clip-path="url(#clip)">
-    <rect width="1200" height="430" fill="url(#bg)"/>
-    <rect width="1200" height="430" fill="url(#grid)"/>
-    <rect width="1200" height="430" fill="url(#glowC)"/>
-    <rect width="1200" height="430" fill="url(#glowV)"/>
+    <rect width="1200" height="440" fill="url(#bg)"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+    <rect width="1200" height="440" fill="url(#glowC)"/>
+    <rect width="1200" height="440" fill="url(#glowV)"/>
 
-    <g fill="none" stroke="#67E8F9" stroke-opacity=".13" stroke-width="1.3">
-      <path d="M46 320L155 266L240 318L340 244L430 292L532 218"/>
-      <path d="M63 92L155 132L242 82L331 142L417 90"/>
-      <path d="M683 85L770 136L854 88L945 150L1040 92L1155 136"/>
-      <path d="M712 300L803 244L892 301L981 242L1142 307"/>
-      <path d="M155 132L155 266M331 142L340 244M770 136L803 244M945 150L981 242M1040 92L1142 307"/>
+    <!-- neural motifs -->
+    <g fill="none" stroke="url(#accent)" stroke-opacity=".14" stroke-width="1.25">
+      <path d="M50 320L145 268L236 318L330 242L420 292L520 218"/>
+      <path d="M70 94L160 132L245 82L334 142L418 92"/>
+      <path d="M680 84L770 136L855 88L948 150L1042 92L1150 136"/>
+      <path d="M710 302L804 245L892 301L982 242L1142 307"/>
+      <path d="M160 132L145 268M334 142L330 242M770 136L804 245M948 150L982 242"/>
+    </g>
+    <g fill="#67E8F9" filter="url(#glow)">
+      <circle r="4"><animateMotion dur="4.3s" repeatCount="indefinite" path="M70 94L160 132L334 142L330 242L520 218"/></circle>
+      <circle r="3.5"><animateMotion begin="1s" dur="4.7s" repeatCount="indefinite" path="M50 320L145 268L236 318L420 292"/></circle>
+    </g>
+    <g fill="#A78BFA" filter="url(#glow)">
+      <circle r="4"><animateMotion dur="4.5s" repeatCount="indefinite" path="M680 84L770 136L948 150L982 242L1142 307"/></circle>
+      <circle r="3.5"><animateMotion begin="1.4s" dur="5s" repeatCount="indefinite" path="M710 302L804 245L892 301L982 242"/></circle>
     </g>
 
-    <g fill="#22D3EE" filter="url(#tinyGlow)">
-      <circle cx="46" cy="320" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.3s" repeatCount="indefinite"/></circle>
-      <circle cx="155" cy="266" r="4"><animate attributeName="opacity" values="1;.25;1" dur="2.7s" repeatCount="indefinite"/></circle>
-      <circle cx="240" cy="318" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="3.1s" repeatCount="indefinite"/></circle>
-      <circle cx="340" cy="244" r="4"><animate attributeName="opacity" values="1;.35;1" dur="2.1s" repeatCount="indefinite"/></circle>
-      <circle cx="430" cy="292" r="3"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
-      <circle cx="532" cy="218" r="4"><animate attributeName="opacity" values="1;.25;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <rect x="44" y="36" width="230" height="31" rx="15.5" fill="#071B2B" stroke="#22D3EE" stroke-opacity=".35"/>
+    <circle cx="62" cy="51.5" r="4" fill="#22D3EE" filter="url(#glow)"><animate attributeName="opacity" values=".4;1;.4" dur="1.7s" repeatCount="indefinite"/></circle>
+    <text x="78" y="56" fill="#A5F3FC" font-family="Consolas,monospace" font-size="11" letter-spacing="1.4">OMAR • AI/ML SYSTEMS</text>
+
+    <rect x="930" y="36" width="226" height="31" rx="15.5" fill="#120D28" stroke="#A78BFA" stroke-opacity=".38"/>
+    <text x="1043" y="56" text-anchor="middle" fill="#DDD6FE" font-family="Consolas,monospace" font-size="11" letter-spacing="1.1">BUILD • TRAIN • DEPLOY</text>
+
+    <text x="600" y="160" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="3">OMAR AHMED</text>
+    <rect x="330" y="181" width="540" height="3" rx="1.5" fill="url(#accent)" filter="url(#glow)"><animate attributeName="opacity" values=".55;1;.55" dur="2.5s" repeatCount="indefinite"/></rect>
+    <text x="600" y="228" text-anchor="middle" fill="#67E8F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750" letter-spacing="6">AI &amp; MACHINE LEARNING ENGINEER</text>
+    <text x="600" y="264" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="500" letter-spacing="1.9">MACHINE LEARNING • DEEP LEARNING • RAG • AGENTIC AI • LLM SYSTEMS</text>
+
+    <g font-family="Consolas,monospace" font-size="9.7" letter-spacing=".8">
+      <rect x="272" y="304" width="142" height="30" rx="15" fill="#08202B" stroke="#22D3EE" stroke-opacity=".4"/><text x="343" y="323" text-anchor="middle" fill="#67E8F9">MACHINE LEARNING</text>
+      <rect x="426" y="304" width="126" height="30" rx="15" fill="#09192B" stroke="#38BDF8" stroke-opacity=".4"/><text x="489" y="323" text-anchor="middle" fill="#BAE6FD">DEEP LEARNING</text>
+      <rect x="564" y="304" width="88" height="30" rx="15" fill="#0E1630" stroke="#60A5FA" stroke-opacity=".4"/><text x="608" y="323" text-anchor="middle" fill="#BFDBFE">RAG</text>
+      <rect x="664" y="304" width="96" height="30" rx="15" fill="#15102C" stroke="#A78BFA" stroke-opacity=".4"/><text x="712" y="323" text-anchor="middle" fill="#DDD6FE">AGENTS</text>
+      <rect x="772" y="304" width="116" height="30" rx="15" fill="#11152C" stroke="#818CF8" stroke-opacity=".4"/><text x="830" y="323" text-anchor="middle" fill="#C7D2FE">FASTAPI</text>
     </g>
 
-    <g fill="#A78BFA" filter="url(#tinyGlow)">
-      <circle cx="683" cy="85" r="3"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle>
-      <circle cx="770" cy="136" r="4"><animate attributeName="opacity" values="1;.25;1" dur="2.9s" repeatCount="indefinite"/></circle>
-      <circle cx="854" cy="88" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="3.3s" repeatCount="indefinite"/></circle>
-      <circle cx="945" cy="150" r="4"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
-      <circle cx="1040" cy="92" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
-      <circle cx="1155" cy="136" r="4"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
-    </g>
-
-    <rect x="43" y="35" width="210" height="30" rx="15" fill="#071B2B" stroke="#22D3EE" stroke-opacity=".35"/>
-    <circle cx="61" cy="50" r="4" fill="#22D3EE" filter="url(#softGlow)"><animate attributeName="opacity" values=".4;1;.4" dur="1.6s" repeatCount="indefinite"/></circle>
-    <text x="76" y="55" fill="#A5F3FC" font-family="Consolas, monospace" font-size="11" letter-spacing="1.7">OMAR // AI.SYSTEMS</text>
-
-    <rect x="934" y="35" width="222" height="30" rx="15" fill="#120D28" stroke="#A78BFA" stroke-opacity=".38"/>
-    <text x="954" y="55" fill="#DDD6FE" font-family="Consolas, monospace" font-size="11" letter-spacing="1.25">PRODUCTION-MINDED AI</text>
-
-    <text x="600" y="169" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="3">OMAR AHMED</text>
-    <rect x="350" y="190" width="500" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)">
-      <animate attributeName="opacity" values=".55;1;.55" dur="2.4s" repeatCount="indefinite"/>
-    </rect>
-    <text x="600" y="236" text-anchor="middle" fill="#67E8F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="10">AI ENGINEER</text>
-    <text x="600" y="274" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="500" letter-spacing="2.1">APPLIED ML • RAG • AGENTIC AI • LLM SYSTEMS</text>
-
-    <g font-family="Consolas, monospace" font-size="10" letter-spacing="1">
-      <rect x="358" y="305" width="104" height="28" rx="14" fill="#08202B" stroke="#22D3EE" stroke-opacity=".35"/><text x="410" y="323" text-anchor="middle" fill="#67E8F9">FASTAPI</text>
-      <rect x="474" y="305" width="104" height="28" rx="14" fill="#0C1730" stroke="#60A5FA" stroke-opacity=".35"/><text x="526" y="323" text-anchor="middle" fill="#93C5FD">RAG</text>
-      <rect x="590" y="305" width="104" height="28" rx="14" fill="#15102C" stroke="#A78BFA" stroke-opacity=".35"/><text x="642" y="323" text-anchor="middle" fill="#C4B5FD">AGENTS</text>
-      <rect x="706" y="305" width="136" height="28" rx="14" fill="#11152C" stroke="#818CF8" stroke-opacity=".35"/><text x="774" y="323" text-anchor="middle" fill="#A5B4FC">VECTOR SEARCH</text>
-    </g>
-
-    <line x1="45" y1="376" x2="1155" y2="376" stroke="url(#accent)" stroke-opacity=".22"/>
-    <text x="48" y="402" fill="#64748B" font-family="Consolas, monospace" font-size="11" letter-spacing="1.3">ALEXANDRIA, EGYPT</text>
-    <text x="1152" y="402" text-anchor="end" fill="#64748B" font-family="Consolas, monospace" font-size="11" letter-spacing="1.25">MODEL → RETRIEVAL → REASONING → API → PRODUCT</text>
+    <line x1="45" y1="382" x2="1155" y2="382" stroke="url(#accent)" stroke-opacity=".22"/>
+    <text x="48" y="408" fill="#64748B" font-family="Consolas,monospace" font-size="11" letter-spacing="1.2">ALEXANDRIA, EGYPT</text>
+    <text x="1152" y="408" text-anchor="end" fill="#64748B" font-family="Consolas,monospace" font-size="11" letter-spacing="1.05">DATA → MODEL → INTELLIGENCE → API → PRODUCT</text>
   </g>
 
-  <rect x=".75" y=".75" width="1198.5" height="428.5" rx="27.25" fill="none" stroke="url(#accent)" stroke-opacity=".25" stroke-width="1.5"/>
+  <rect x=".75" y=".75" width="1198.5" height="438.5" rx="27.25" fill="none" stroke="url(#accent)" stroke-opacity=".25" stroke-width="1.5"/>
 </svg>
