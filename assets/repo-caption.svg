@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="t d">
+  <title id="t">Image caption Arabic translation repository card</title>
+  <desc id="d">Local premium card for Omar Ahmed's BLIP and MarianMT multimodal project.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111F"/><stop offset="1" stop-color="#15122A"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+  <rect x="1" y="1" width="558" height="188" rx="18" fill="url(#bg)" stroke="#3A3150" stroke-width="2"/>
+  <rect x="22" y="22" width="48" height="48" rx="12" fill="#17152E" stroke="#A78BFA" stroke-opacity=".55"/>
+  <rect x="31" y="33" width="30" height="25" rx="3" fill="none" stroke="#C4B5FD" stroke-width="2"/><circle cx="52" cy="40" r="3" fill="#67E8F9"/><path d="M34 54l8-8 5 5 4-3 7 6" fill="none" stroke="#67E8F9" stroke-width="2"/>
+  <text x="86" y="41" fill="#C4B5FD" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.4">SUPPORTING // MULTIMODAL AI</text>
+  <text x="86" y="65" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="800">Image Caption → Arabic</text>
+  <text x="22" y="100" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="13">Image understanding + bilingual generation with transformer-based models</text>
+  <g font-family="Inter,Segoe UI,Arial" font-size="11" font-weight="700">
+    <rect x="22" y="124" width="64" height="27" rx="13.5" fill="#151B2C"/><text x="54" y="142" text-anchor="middle" fill="#93C5FD">BLIP</text>
+    <rect x="94" y="124" width="86" height="27" rx="13.5" fill="#17152E"/><text x="137" y="142" text-anchor="middle" fill="#C4B5FD">MarianMT</text>
+    <rect x="188" y="124" width="76" height="27" rx="13.5" fill="#151B2C"/><text x="226" y="142" text-anchor="middle" fill="#93C5FD">PyTorch</text>
+    <rect x="272" y="124" width="97" height="27" rx="13.5" fill="#17152E"/><text x="320.5" y="142" text-anchor="middle" fill="#C4B5FD">Transformers</text>
+    <rect x="377" y="124" width="74" height="27" rx="13.5" fill="#151B2C"/><text x="414" y="142" text-anchor="middle" fill="#93C5FD">Tkinter</text>
+  </g>
+  <rect x="22" y="170" width="516" height="2" rx="1" fill="url(#g)" opacity=".75"/>
+</svg>
