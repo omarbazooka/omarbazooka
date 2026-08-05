@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Neural Network Visualization</title>
+  <desc id="desc">Animated feed-forward neural network from input features through two hidden layers to outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#071426"/>
+      <stop offset="1" stop-color="#120A26"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7DD3FC" stroke-opacity=".04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="428" rx="26" fill="url(#bg)" stroke="#1E293B" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="428" rx="26" fill="url(#grid)"/>
+
+  <text x="46" y="46" fill="#67E8F9" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Neural Network Signal Flow</text>
+  <text x="46" y="70" fill="#64748B" font-family="Consolas,monospace" font-size="10.5" letter-spacing="1.1">INPUT FEATURES → HIDDEN REPRESENTATIONS → PREDICTION</text>
+
+  <!-- network edges -->
+  <g stroke="url(#edge)" stroke-width="1.15" stroke-opacity=".16">
+    <!-- input to h1 -->
+    <path d="M170 120L420 92M170 120L420 142M170 120L420 192M170 120L420 242M170 120L420 292M170 120L420 342"/>
+    <path d="M170 165L420 92M170 165L420 142M170 165L420 192M170 165L420 242M170 165L420 292M170 165L420 342"/>
+    <path d="M170 210L420 92M170 210L420 142M170 210L420 192M170 210L420 242M170 210L420 292M170 210L420 342"/>
+    <path d="M170 255L420 92M170 255L420 142M170 255L420 192M170 255L420 242M170 255L420 292M170 255L420 342"/>
+    <path d="M170 300L420 92M170 300L420 142M170 300L420 192M170 300L420 242M170 300L420 292M170 300L420 342"/>
+    <!-- h1 to h2 -->
+    <path d="M420 92L690 117M420 92L690 177M420 92L690 237M420 92L690 297"/>
+    <path d="M420 142L690 117M420 142L690 177M420 142L690 237M420 142L690 297"/>
+    <path d="M420 192L690 117M420 192L690 177M420 192L690 237M420 192L690 297"/>
+    <path d="M420 242L690 117M420 242L690 177M420 242L690 237M420 242L690 297"/>
+    <path d="M420 292L690 117M420 292L690 177M420 292L690 237M420 292L690 297"/>
+    <path d="M420 342L690 117M420 342L690 177M420 342L690 237M420 342L690 297"/>
+    <!-- h2 to output -->
+    <path d="M690 117L970 165M690 117L970 245M690 177L970 165M690 177L970 245M690 237L970 165M690 237L970 245M690 297L970 165M690 297L970 245"/>
+  </g>
+
+  <!-- animated signals -->
+  <g fill="#67E8F9" filter="url(#glow)">
+    <circle r="4"><animateMotion dur="3.1s" repeatCount="indefinite" path="M170 120L420 192L690 177L970 165"/></circle>
+    <circle r="3.6"><animateMotion begin=".7s" dur="3.4s" repeatCount="indefinite" path="M170 255L420 292L690 237L970 245"/></circle>
+  </g>
+  <g fill="#A78BFA" filter="url(#glow)">
+    <circle r="4"><animateMotion begin="1.1s" dur="3.7s" repeatCount="indefinite" path="M170 300L420 342L690 297L970 245"/></circle>
+    <circle r="3.5"><animateMotion begin="1.7s" dur="3.25s" repeatCount="indefinite" path="M170 165L420 142L690 117L970 165"/></circle>
+  </g>
+
+  <!-- layer labels -->
+  <g font-family="Inter,Segoe UI,Arial" text-anchor="middle">
+    <text x="170" y="385" fill="#67E8F9" font-size="13" font-weight="700">INPUT</text>
+    <text x="420" y="385" fill="#93C5FD" font-size="13" font-weight="700">HIDDEN LAYER 1</text>
+    <text x="690" y="385" fill="#C4B5FD" font-size="13" font-weight="700">HIDDEN LAYER 2</text>
+    <text x="970" y="385" fill="#E9D5FF" font-size="13" font-weight="700">OUTPUT</text>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#071B2B" stroke="#22D3EE" stroke-width="1.6">
+    <circle cx="170" cy="120" r="18"/><circle cx="170" cy="165" r="18"/><circle cx="170" cy="210" r="18"/><circle cx="170" cy="255" r="18"/><circle cx="170" cy="300" r="18"/>
+  </g>
+  <g fill="#0A1730" stroke="#60A5FA" stroke-width="1.6">
+    <circle cx="420" cy="92" r="18"/><circle cx="420" cy="142" r="18"/><circle cx="420" cy="192" r="18"/><circle cx="420" cy="242" r="18"/><circle cx="420" cy="292" r="18"/><circle cx="420" cy="342" r="18"/>
+  </g>
+  <g fill="#120F27" stroke="#A78BFA" stroke-width="1.6">
+    <circle cx="690" cy="117" r="18"/><circle cx="690" cy="177" r="18"/><circle cx="690" cy="237" r="18"/><circle cx="690" cy="297" r="18"/>
+  </g>
+  <g fill="#170D2B" stroke="#C084FC" stroke-width="1.8">
+    <circle cx="970" cy="165" r="22"/><circle cx="970" cy="245" r="22"/>
+  </g>
+
+  <g fill="#A5F3FC" font-family="Consolas,monospace" font-size="9" text-anchor="middle">
+    <text x="170" y="123">x₁</text><text x="170" y="168">x₂</text><text x="170" y="213">x₃</text><text x="170" y="258">x₄</text><text x="170" y="303">x₅</text>
+  </g>
+  <g fill="#BFDBFE" font-family="Consolas,monospace" font-size="9" text-anchor="middle">
+    <text x="420" y="95">h</text><text x="420" y="145">h</text><text x="420" y="195">h</text><text x="420" y="245">h</text><text x="420" y="295">h</text><text x="420" y="345">h</text>
+  </g>
+  <g fill="#DDD6FE" font-family="Consolas,monospace" font-size="9" text-anchor="middle">
+    <text x="690" y="120">z</text><text x="690" y="180">z</text><text x="690" y="240">z</text><text x="690" y="300">z</text>
+  </g>
+  <g fill="#F5D0FE" font-family="Consolas,monospace" font-size="10" text-anchor="middle">
+    <text x="970" y="169">ŷ₁</text><text x="970" y="249">ŷ₂</text>
+  </g>
+
+  <g font-family="Consolas,monospace" font-size="9.5" fill="#64748B">
+    <text x="116" y="335">features</text>
+    <text x="376" y="360">learned representation</text>
+    <text x="647" y="330">non-linear features</text>
+    <text x="936" y="286">class / score</text>
+  </g>
+</svg>
